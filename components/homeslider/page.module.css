@@ -1,0 +1,24 @@
+.slideImg {
+    height: auto !important;
+}
+
+.mobileSlide {
+    display: none !important;
+}
+
+.desktopSlide {
+    display: flex !important;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .mobileSlide {
+        display: flex !important;
+    }
+
+    .desktopSlide {
+        display: none !important;
+    }
+
+}

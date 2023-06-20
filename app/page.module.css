@@ -1,0 +1,20 @@
+.recommendedText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    color: #030203;
+}
+
+.viewBtn {
+    background: #030203;
+    box-shadow: 0px 3.89535px 7.7907px rgba(0, 0, 0, 0.16);
+    border-radius: 22.593px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

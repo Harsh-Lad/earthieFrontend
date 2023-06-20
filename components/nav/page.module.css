@@ -1,0 +1,122 @@
+.navWrapper {
+    background-color: #030202;
+    position: fixed;
+    width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.navIcon {
+    font-size: larger;
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.profile {
+    background-color: rgb(22, 188, 132);
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    font-weight: bolder;
+    border-radius: 100%;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Product Sans';
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+.navLink {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.center {
+    position: fixed;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.phoneMenu {
+    display: none;
+}
+
+.phoneIcon {
+    color: #030202;
+    font-size: larger;
+}
+
+.phoneNavName {
+    color: #030202;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.phoneLink {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(212, 212, 212, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.phoneLink:last-child > *{
+    color: #FF3d00;
+}
+
+.menuBtn{
+    display: none;
+}
+
+
+@media screen and (max-width: 820px) {
+    .center {
+        display: none !important;
+    }
+
+    .rightIcons {
+        display: none !important;
+    }
+
+    .phoneMenu {
+        display: block;
+        height: 70vh;
+        width: 100vw;
+        position: fixed;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(13.5px);
+        -webkit-backdrop-filter: blur(13.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        z-index: 100;
+        opacity: 1;
+        transition: 0.2s;
+        bottom: 0%;
+    }
+
+    .mobileSlide{
+        display: block !important;
+    }
+    
+    .desktopSlide{
+        display: none !important;
+    }
+
+    .menuBtn{
+        display: flex;
+    }
+
+}
